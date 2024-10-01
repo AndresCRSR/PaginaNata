@@ -1,0 +1,38 @@
+.header{
+    border: none;
+    width: 100%;
+    height: 150px;
+}
+.curved-text {
+    font-family: 'Dancing Script', cursive; /* Usar la fuente de Google Fonts */
+    font-size: 2em; /* Tamaño de fuente */
+    color: #7c7777; /* Color del texto */
+    margin-right: auto; /* Alinear al inicio */
+}
+
+.itemsmenu{
+    color: #7c7777;
+}
+
+.div-izquierda {
+    
+     
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.div-derecha {
+    
+    
+    padding: 20px;
+    justify-content: start;
+    display: grid;
+    align-items: center;
+}
+
+.imagencontacto{
+    border-image: round;
+    border-radius: 55px;
+}
