@@ -9,6 +9,12 @@
     color: #7c7777; /* Color del texto */
     margin-right: auto; /* Alinear al inicio */
 }
+.subtitulos{
+    font-family: 'Dancing Script', cursive; /* Usar la fuente de Google Fonts */
+    font-size: 4em; /* Tamaño de fuente */
+    color: #7c7777; /* Color del texto */
+    margin-right: auto; /* Alinear al inicio */
+}
 
 .itemsmenu{
     color: #7c7777;
@@ -35,4 +41,39 @@
 .imagencontacto{
     border-image: round;
     border-radius: 55px;
+}
+
+
+
+
+
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery-item img {
+    width: 100%; /* Asegura que las imágenes sean responsivas */
+    height: auto; /* Mantiene la relación de aspecto */
+    transition: transform 0.3s; /* Transición para el zoom */
+}
+
+.gallery-item:hover img {
+    transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
+}
+
+/* Estilo para la imagen a pantalla completa */
+.full-screen-img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-size: contain; /* Asegura que la imagen mantenga su tamaño original */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* No repetir imagen */
+    display: none; /* Oculta por defecto */
+    z-index: 9999; /* Asegura que esté encima de otros elementos */
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro semitransparente */
 }
