@@ -52,16 +52,20 @@
     position: relative;
     overflow: hidden;
     border-radius: 25px;
+    max-width: 400px;
+    max-height: 300px;
 }
 
 .gallery-item img {
     width: 100%; /* Asegura que las imágenes sean responsivas */
     height: auto; /* Mantiene la relación de aspecto */
     transition: transform 0.3s; /* Transición para el zoom */
+    max-width: 400px;
+    max-height: 300px;
 }
 
 .gallery-item:hover img {
-    transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
+    transform: scale(1.15); /* Efecto de zoom al pasar el mouse */
 }
 
 /* Estilo para la imagen a pantalla completa */
@@ -77,4 +81,5 @@
     display: none; /* Oculta por defecto */
     z-index: 9999; /* Asegura que esté encima de otros elementos */
     background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro semitransparente */
+    
 }
