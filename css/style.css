@@ -45,7 +45,15 @@
 
 
 
-
+.sketch-item{
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    max-width: 560px;
+    max-height: 315px;
+    align-items: center;
+    display: flex;
+}
 
 
 .gallery-item {
