@@ -4,7 +4,7 @@
     height: 150px;
 }
 .curved-text {
-    font-family: 'Dancing Script', cursive; /* Usar la fuente de Google Fonts */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif /* Usar la fuente de Google Fonts */
     font-size: 2em; /* Tamaño de fuente */
     color: #7c7777; /* Color del texto */
     margin-right: auto; /* Alinear al inicio */
